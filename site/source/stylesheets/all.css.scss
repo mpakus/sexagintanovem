@@ -1,0 +1,139 @@
+/*
+*= require bootstrap.min
+*= require bootstrap-theme.min
+*= require_self
+*/
+
+@charset "utf-8";
+
+body {
+  background: #FFF;
+  color: #333;
+  font-family: sans-serif;
+  padding-top: 20px;
+}
+
+a{
+  color: #82C84A;  
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Scada', sans-serif;
+  font-weight: bold;
+}
+
+.tc{
+  text-align: center;
+}
+
+.navbar-inverse{
+  background: #241e3b !important;
+  // box-shadow: 2px 2px 5px #666;
+  border-bottom: 2px solid #FFF;
+}
+.logo-header{
+  background: #473B7A;  
+}
+.logo{
+  font-family: 'Scada', sans-serif;
+  color: #FFF !important;
+  font-style: italic;
+  font-size: 27px;
+  span{
+    color: #82C84A;
+  }
+}
+
+.title{
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.spacer{
+  height: 50px;
+}
+
+.navbar-nav > li > a{
+  color: #82C84A !important;
+}
+.navbar-nav > li > a:hover{
+  color: #FFF !important;
+  background: #473B7A !important;
+}
+
+.sn{
+  color: #473B7A;
+  span{
+    color: #82C84A    
+  }
+}
+
+/* SLIDES */
+.slides{
+  background: #241e3b;
+  height: 740px;
+  text-align: center;
+}
+
+.carousel-control{  background-image: none !important; }
+.carousel-inner { text-align: center; }
+.carousel .item > img { display: inline-block; }
+
+// Prices
+.lead { font-size: 27px;margin-bottom:0px; }
+.lead-small{ font-size: 21px; }
+
+.panel-price{
+  border-color: #5E48B2;
+  .panel-heading{
+    background: #5E48B2;
+    color: #FFF;    
+  }
+  .panel-footer{
+    a{ color: #5E48B2; }
+  }
+}
+
+.panel-price2{
+  border-color: #82C84A;
+  .panel-heading{
+    background: #82C84A;
+    color: #FFF;    
+  }
+  .panel-footer{
+    a{ color: #82C84A; }
+  }
+}
+
+.panel-price3{
+  border-color: #FF0069;
+  .panel-heading{
+    background: #FF0069;
+    color: #FFF;    
+  }
+  .panel-footer{
+    a{ color: #FF0069; }
+  }
+}
+
+.footer{
+  background: #1B162D;
+  color: #FFF;
+  text-align: center;
+  padding: 70px 0px;
+  position: relative;
+  .aomega{
+    display: inline-block;
+    background: #362A67;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 160px;
+    color: #FFF;
+    text-decoration: none;
+  }
+  .aomega:hover{
+    background: #DF004A;
+  }
+}
